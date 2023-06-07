@@ -91,8 +91,66 @@ var productData = [
  
 
 
-
-
+ <!-- 5. რთული დამატებითი დავალება
+ html შექმენით <div id="user-list"></div> გამოიყენეთ მიმაგრებული სურათი (hiok.png) დიზაინის ასაწყობად,
+ 
+ 
+ const users = [
+ {
+ id: 7,
+ email: "michael.lawson@reqres.in",
+ first_name: "Michael",
+ last_name: "Lawson",
+ avatar: "https://i.ytimg.com/vi/VEx5hNYeZtY/hqdefault.jpg&quot;
+ },
+ {
+ id: 8,
+ email: "lindsay.ferguson@reqres.in",
+ first_name: "Lindsay",
+ last_name: "Ferguson",
+ avatar: "https://i.ytimg.com/vi/VEx5hNYeZtY/hqdefault.jpg&quot;
+ },
+ {
+ id: 9,
+ email: "tobias.funke@reqres.in",
+ first_name: "Tobias",
+ last_name: "Funke",
+ avatar: "https://i.ytimg.com/vi/VEx5hNYeZtY/hqdefault.jpg&quot;
+ },
+ {
+ id: 10,
+ email: "byron.fields@reqres.in",
+ first_name: "Byron",
+ last_name: "Fields",
+ avatar: "https://i.ytimg.com/vi/VEx5hNYeZtY/hqdefault.jpg&quot;
+ },
+ {
+ id: 11,
+ email: "george.edwards@reqres.in",
+ first_name: "George",
+ last_name: "Edwards",
+ avatar: "https://i.ytimg.com/vi/VEx5hNYeZtY/hqdefault.jpg&quot;
+ },
+ {
+ id: 12,
+ email: "rachel.howell@reqres.in",
+ first_name: "Rachel",
+ last_name: "Howell",
+ avatar: "https://i.ytimg.com/vi/VEx5hNYeZtY/hqdefault.jpg&quot;
+ }
+ ];
+       ეს მასივი გამოიყენეთ და html ში გამოიტანეთ (ჯავასკრიპტით) 4 user card როგორც დიზანშია ნაჩვენები, თითოეული ქარდი უნდა შეიცავდეს შემდეგ ინფორმაციას users მასივის ელემენტებიდან   
+ 
+   (ობიექტებიდან):
+  1. ავატარი ჩასვით სურათის ადგილას (შეგიძლიათ ავატარის ფოტოები შეცვალოთ)
+  2. "John Doe" ს ადგილას ჩასვით first_name და last_name.
+ 
+ 
+  (მოქმედებები) #5 დავალებაში შექმნილ user card - ს აქვს ღილაკები (აიქონები თუ ვერ ნახეთ ამ ღილაკებზე სიტყვიერად დაწერეთ წაშლა და ინფო), ინფო ღილაკზე დაჭერის შედეგად ღილაკების ქვემოთ გამოვაჩინოთ email, რომელიც განთავსებული იქნება ცენტრში, წაშლა ღილაკზე დაჭერით წავშალოთ შესაბამისი user card-ი. გამოიყენეთ remove() მეთოდი
+   -->
+ 
+ 
+ 
 
  
 <div id="user-list"></div>
@@ -104,42 +162,42 @@ var productData = [
     email: "michael.lawson@reqres.in",
     first_name: "Michael",
     last_name: "Lawson",
-    avatar: "https://wallpapercave.com/w/wp1786796;",
+    avatar: " https://www.simplilearn.com/ice9/free_resources_article_thumb/Become_a_Front_End_Developer.jpg",
   },
   {
     id: 8,
     email: "lindsay.ferguson@reqres.in",
     first_name: "Lindsay",
     last_name: "Ferguson",
-    avatar: "https://i.ytimg.com/vi/VEx5hNYeZtY/hqdefault.jpg&quot;",
+    avatar: " https://www.simplilearn.com/ice9/free_resources_article_thumb/Become_a_Front_End_Developer.jpg",
   },
   {
     id: 9,
     email: "tobias.funke@reqres.in",
     first_name: "Tobias",
     last_name: "Funke",
-    avatar: "https://i.ytimg.com/vi/VEx5hNYeZtY/hqdefault.jpg&quot;",
+    avatar: " https://www.simplilearn.com/ice9/free_resources_article_thumb/Become_a_Front_End_Developer.jpg",
   },
   {
     id: 10,
     email: "byron.fields@reqres.in",
     first_name: "Byron",
     last_name: "Fields",
-    avatar: "https://i.ytimg.com/vi/VEx5hNYeZtY/hqdefault.jpg&quot;",
+    avatar: " https://www.simplilearn.com/ice9/free_resources_article_thumb/Become_a_Front_End_Developer.jpg",
   },
   {
     id: 11,
     email: "george.edwards@reqres.in",
     first_name: "George",
     last_name: "Edwards",
-    avatar: "https://i.ytimg.com/vi/VEx5hNYeZtY/hqdefault.jpg&quot;",
+    avatar: " https://www.simplilearn.com/ice9/free_resources_article_thumb/Become_a_Front_End_Developer.jpg",
   },
   {
     id: 12,
     email: "rachel.howell@reqres.in",
     first_name: "Rachel",
     last_name: "Howell",
-    avatar: "https://i.ytimg.com/vi/VEx5hNYeZtY/hqdefault.jpg&quot;",
+    avatar: " https://www.simplilearn.com/ice9/free_resources_article_thumb/Become_a_Front_End_Developer.jpg",
   },
 ];
 
